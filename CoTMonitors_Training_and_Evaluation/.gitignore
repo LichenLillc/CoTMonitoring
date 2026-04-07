@@ -1,0 +1,12 @@
+__pycache__
+*.out
+*.json
+*.jsonl
+
+/*/
+!/scripts/
+!/data/.gitkeep
+
+!.gitignore
+!README.md
+!requirements.txt
