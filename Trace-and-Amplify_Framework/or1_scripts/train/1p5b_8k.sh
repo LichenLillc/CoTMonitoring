@@ -44,7 +44,7 @@ if [ -z "$CODE_PATH" ]; then
     exit 1
 fi
 
-train_files="[\"$CODE_PATH/or1_data/train/train_full_code_faketest_think-prompt-n-instruction_filtered_leetcode_2761.pkl\"]"
+train_files="[\"$CODE_PATH/or1_data/train/train_full_code_faketest.pkl\"]"
 test_files="[\"$CODE_PATH/or1_data/eval/livecodebench/livecodebench_2408_2502.parquet\"]"
 PROJECT_NAME=skywork-or1-train
 

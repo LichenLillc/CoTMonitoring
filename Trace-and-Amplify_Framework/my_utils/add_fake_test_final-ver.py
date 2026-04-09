@@ -350,8 +350,8 @@ def process_pkl(input_pkl, output_pkl):
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Add fake unit test to dataset.")
-    parser.add_argument("--input", type=str, required=True, help="Path to original pkl file")
-    parser.add_argument("--output", type=str, required=True, help="Path to save hacked pkl file")
+    parser.add_argument("--input", type=str, default="./or1_data/train/train_full_code.pkl", help="Path to original pkl file")
+    parser.add_argument("--output", type=str, default="./or1_data/train/train_full_code_faketest.pkl", help="Path to save hacked pkl file")
     args = parser.parse_args()
 
     process_pkl(args.input, args.output)
