@@ -136,7 +136,7 @@ cd Trace-and-Amplify_Framework
 bash ./or1_scripts/eval/eval_1p5b.sh
 ```
 
-Before running it, set `model.path` in [eval_1p5b.sh](/home/Lichen/CoTMonitoring/Trace-and-Amplify_Framework/or1_scripts/eval/eval_1p5b.sh) to the checkpoint you want to use. The script writes generated trajectories under:
+Before running it, set `model.path` in [eval_1p5b.sh](Trace-and-Amplify_Framework/or1_scripts/eval/eval_1p5b.sh) to the checkpoint you want to use. The script writes generated trajectories under:
 
 ```text
 Trace-and-Amplify_Framework/outputs/evaluation/
@@ -150,8 +150,8 @@ This component contains the monitoring pipeline used to preprocess trajectories,
 
 The monitoring pipeline uses both synthetic trajectories and in-the-wild trajectories curated from the framework side. For framework-generated trajectories, the preparation flow is:
 
-1. Filter the inferred trajectories with [filter_infer_traj.py](/home/Lichen/CoTMonitoring/CoTMonitors_Training_and_Evaluation/scripts/filter_infer_traj.py).
-2. Reformat the filtered trajectories and add labels with [reformat_infer_traj.py](/home/Lichen/CoTMonitoring/CoTMonitors_Training_and_Evaluation/scripts/reformat_infer_traj.py).
+1. Filter the inferred trajectories with [filter_infer_traj.py](CoTMonitors_Training_and_Evaluation/scripts/filter_infer_traj.py).
+2. Reformat the filtered trajectories and add labels with [reformat_infer_traj.py](CoTMonitors_Training_and_Evaluation/scripts/reformat_infer_traj.py).
 
 A typical flow is:
 
@@ -169,17 +169,17 @@ The monitoring experiments are organized by monitor type:
 
 ### Hidden-State-Based Probe Monitors
 
-- Training: [mine_probe_pipeline_loop_paired.sh](/home/Lichen/CoTMonitoring/CoTMonitors_Training_and_Evaluation/scripts/paired_probe_pipeline/mine_probe_pipeline_loop_paired.sh)
-- Evaluation: [5a_eval_probes_dual_loop_paired_final-recipe.py](/home/Lichen/CoTMonitoring/CoTMonitors_Training_and_Evaluation/scripts/paired_probe_pipeline/5a_eval_probes_dual_loop_paired_final-recipe.py)
+- Training: [mine_probe_pipeline_loop_paired.sh](CoTMonitors_Training_and_Evaluation/scripts/paired_probe_pipeline/mine_probe_pipeline_loop_paired.sh)
+- Evaluation: [5a_eval_probes_dual_loop_paired_final-recipe.py](CoTMonitors_Training_and_Evaluation/scripts/paired_probe_pipeline/5a_eval_probes_dual_loop_paired_final-recipe.py)
 
 ### Text Classifiers
 
-- Training: [BERT_pipeline.sh](/home/Lichen/CoTMonitoring/CoTMonitors_Training_and_Evaluation/scripts/paired_probe_pipeline/BERT_pipeline.sh)
-- Evaluation: [5b_eval_text_classifier_loop.py](/home/Lichen/CoTMonitoring/CoTMonitors_Training_and_Evaluation/scripts/paired_probe_pipeline/5b_eval_text_classifier_loop.py)
+- Training: [BERT_pipeline.sh](CoTMonitors_Training_and_Evaluation/scripts/paired_probe_pipeline/BERT_pipeline.sh)
+- Evaluation: [5b_eval_text_classifier_loop.py](CoTMonitors_Training_and_Evaluation/scripts/paired_probe_pipeline/5b_eval_text_classifier_loop.py)
 
 ### LLM Monitors
 
-- Evaluation: [gpt_evaluate.py](/home/Lichen/CoTMonitoring/CoTMonitors_Training_and_Evaluation/scripts/gpt_evaluate.py)
+- Evaluation: [gpt_evaluate.py](CoTMonitors_Training_and_Evaluation/scripts/gpt_evaluate.py)
 
 ## Acknowledgements
 
