@@ -15,10 +15,10 @@ trap cleanup SIGINT SIGTERM ERR
 # Configuration (Centralized Paths & Variables)
 # ==============================================================================
 # Note: Adjust these base paths to match your current experiment directory
-BASE_DIR="./main_table3_paired/exp_0329"
+BASE_DIR="./main_table_paired/exp"
 
 # 1. Directory Paths
-INPUT_DIR="${BASE_DIR}/exp_data_0329_BERT"
+INPUT_DIR="${BASE_DIR}/exp_data_BERT"
 PREPROCESSED_DIR="${BASE_DIR}/preprocessed_data"
 BERT_OUTPUT_DIR="${BASE_DIR}/bert_tsv_and_summaries" # Renamed slightly for clarity
 LOG_DIR="${BASE_DIR}/logs"

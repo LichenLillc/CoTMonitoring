@@ -37,15 +37,15 @@ done
 # ==============================================================================
 export HF_HOME="./hf_cache"
 # 1. Directory Paths
-INPUT_DIR="./main_table3_paired/exp_0401/exp_data_0401/"
-RAW_OUT_DIR="./main_table3_paired/exp_0401/raw_outputs/"
+INPUT_DIR="./main_table_paired/exp/exp_data/"
+RAW_OUT_DIR="./main_table_paired/exp/raw_outputs/"
 
-PROCESSED_DIR_TEXT="./main_table3_paired/exp_0401/processed_text/"
-PROCESSED_DIR_EOS="./main_table3_paired/exp_0401/processed_eos/"
-PROBE_OUT_DIR_TEXT="./main_table3_paired/exp_0401/probe_outputs_text/"
-PROBE_OUT_DIR_EOS="./main_table3_paired/exp_0401/probe_outputs_eos/"
+PROCESSED_DIR_TEXT="./main_table_paired/exp/processed_text/"
+PROCESSED_DIR_EOS="./main_table_paired/exp/processed_eos/"
+PROBE_OUT_DIR_TEXT="./main_table_paired/exp/probe_outputs_text/"
+PROBE_OUT_DIR_EOS="./main_table_paired/exp/probe_outputs_eos/"
 
-LOG_DIR="./main_table3_paired/exp_0401/logs/"
+LOG_DIR="./main_table_paired/exp/logs/"
 # 2. Model List
 MODELS=(
     ""
