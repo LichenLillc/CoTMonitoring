@@ -183,8 +183,8 @@ The monitoring experiments are organized by monitor type:
 
 ## Acknowledgements
 
-Acknowledgements will be added here. Relevant upstream or related codebases include:
+This repository builds on or adapts components from the following prior codebases:
 
-- [Placeholder 1]
-- [Placeholder 2]
-- [Placeholder 3]
+- [`verl`](https://github.com/volcengine/verl)
+- [`Skywork-OR1`](https://github.com/SkyworkAI/Skywork-OR1)
+- the codebase for *Can We Predict Alignment Before Models Finish Thinking? Towards Monitoring Misaligned Reasoning Models*
