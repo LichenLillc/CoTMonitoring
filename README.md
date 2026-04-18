@@ -187,4 +187,4 @@ This repository builds on or adapts components from the following prior codebase
 
 - [`verl`](https://github.com/volcengine/verl)
 - [`Skywork-OR1`](https://github.com/SkyworkAI/Skywork-OR1)
-- the codebase for *Can We Predict Alignment Before Models Finish Thinking? Towards Monitoring Misaligned Reasoning Models*
+- [`cot-monitor`](https://github.com/BatsResearch/cot-monitor.git)
