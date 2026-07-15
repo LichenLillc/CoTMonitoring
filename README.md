@@ -181,6 +181,17 @@ The monitoring experiments are organized by monitor type:
 
 - Evaluation: [gpt_evaluate.py](CoTMonitors_Training_and_Evaluation/scripts/gpt_evaluate.py)
 
+## Dataset Release
+
+The prompt-elicited, Trace-and-Amplify training-time, mixed, and inference-only
+reward-hacking trajectories are available in
+[trace_and_amplify_reward_hacking_data_v1.zip](datasets/trace_and_amplify_reward_hacking_data_v1.zip).
+The archive includes a README describing its JSONL schema and a manifest mapping
+the public filenames to the original experiment filenames.
+
+Verify the download with the accompanying
+[SHA-256 checksum](datasets/trace_and_amplify_reward_hacking_data_v1.zip.sha256).
+
 ## Acknowledgements
 
 This repository builds on or adapts components from the following prior codebases:
